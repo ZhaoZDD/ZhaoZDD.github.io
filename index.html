@@ -1,30 +1,335 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="栋栋"><meta name="copyright" content="栋栋"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>木东の小站</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
-  [".post-card",".post-content img"].forEach((target)=> {
-    ScrollReveal().reveal(target);
-  })
-}
-document.addEventListener("DOMContentLoaded", initScrollReveal);
-document.addEventListener("pjax:success", initScrollReveal);
-</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/js/ui/banner.js" as="script"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
-    const Yun = window.Yun || {};
-    window.CONFIG = {"hostname":"zhaozdd.gitee.io","root":"/","title":"木东の小站","version":"1.7.0","mode":"auto","copycode":true,"page":{"isPost":false},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
-  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/utils.js"></script><script src="/js/hexo-theme-yun.js"></script><meta name="description" content="希望做一个快乐的人">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>木东の小站 - All in life.</title><meta name="author" content="栋栋"><meta name="copyright" content="栋栋"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="希望做一个快乐的人">
 <meta property="og:type" content="website">
 <meta property="og:title" content="木东の小站">
 <meta property="og:url" content="https://zhaozdd.gitee.io/index.html">
 <meta property="og:site_name" content="木东の小站">
 <meta property="og:description" content="希望做一个快乐的人">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/aotuman.jpg">
 <meta property="article:author" content="栋栋">
-<meta name="twitter:card" content="summary"><script src="/js/ui/mode.js"></script></head><body class="is-home"><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js"></script><div class="sidebar-panel sidebar-panel-active" id="site-overview-wrap"><div class="site-info"><a class="site-author-avatar" href="/about/" title="栋栋"><img width="96" loading="lazy" src="https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/aotuman.jpg" alt="栋栋"></a><div class="site-author-name"><a href="/about/">栋栋</a></div><a class="site-name" href="/about/site.html">木东の小站</a><sub class="site-subtitle">All in life.</sub><div class="site-desciption">希望做一个快乐的人</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">33</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">8</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">25</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-settings-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://qm.qq.com/cgi-bin/qm/qr?k=CZ1ryl52B3lQTz3yBRy9oCcp1YDQW-WK&amp;noverify=0" title="QQ" target="_blank" style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:aboydreamzzd@163.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://weibo.com/u/5680866996" title="微博" target="_blank" style="color:#E6162D"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/user/home?id=414713078" title="网易云音乐" target="_blank" style="color:#C10D0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/8295257" title="哔哩哔哩动画" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://tvax4.sinaimg.cn/large/008rensygy1gy2ycf0n48j30by0bydgd.jpg" title="微信" target="_blank" style="color:#1AAD19"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat-2-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div></aside><main class="sidebar-translate" id="content"><div id="banner"><div class="banner-line vertical-line-top"></div><div class="banner-char-container"></div><div class="banner-line vertical-line-bottom"></div><div class="cloud"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="white"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0" opacity="0.7"></use><use xlink:href="#gentle-wave" x="48" y="3" opacity="0.5"></use><use xlink:href="#gentle-wave" x="48" y="5" opacity="0.3"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><a id="goDown" aria-label="go-down" href="javascript:window.scrollTo(0, banner.clientHeight);"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-down-s-line"></use></svg></a></div><script src="/js/ui/banner.js"></script><div id="say"><span id="say-content"></span><small id="say-author"></small><small id="say-from"></small></div><script src="/js/say.js"></script><script>document.addEventListener("DOMContentLoaded", fetchApiToSay);
-document.addEventListener("pjax:success", () => {
-  Yun.utils.isHome() ? fetchApiToSay() : null;
-});</script><section class="flex flex-col" id="recent-posts"><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/11/04/OBSIDIAN/blog_ob/Experiment/snapgen/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/11/04/OBSIDIAN/blog_ob/Experiment/snapgen/">SnapGen4.3.6 CN 下载连接</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-11-04 00:00:00" itemprop="dateCreated datePublished" datetime="2023-11-04T00:00:00+08:00">2023-11-04</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">5</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">待分类</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E8%BD%AF%E4%BB%B6/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">软件</span></a><a class="tag-item" href="/tags/%E7%A0%B4%E8%A7%A3/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">破解</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/09/22/OBSIDIAN/blog_ob/Experiment/RNA-seq/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/09/22/OBSIDIAN/blog_ob/Experiment/RNA-seq/">转录组上游分析-差异基因表达分析</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-09-22 00:00:00" itemprop="dateCreated datePublished" datetime="2023-09-22T00:00:00+08:00">2023-09-22</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">828</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">4m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">待分类</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%A0%87%E7%AD%BE1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">标签1</span></a><a class="tag-item" href="/tags/%E6%A0%87%E7%AD%BE2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">标签2</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/07/24/OBSIDIAN/blog_ob/%E6%9D%82/zhaoxin/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/07/24/OBSIDIAN/blog_ob/%E6%9D%82/zhaoxin/">招新啦！！！！</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2023-07-24T00:00:00+08:00">2023-07-24</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2023-09-08 14:35:32" itemprop="dateModified" datetime="2023-09-08T14:35:32+08:00">2023-09-08</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">29</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">待分类</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%8B%9B%E6%96%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">招新</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/07/19/OBSIDIAN/blog_ob/%E6%9D%82/xinshengzhinan/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/07/19/OBSIDIAN/blog_ob/%E6%9D%82/xinshengzhinan/">华农新生指北</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-07-19 00:00:00" itemprop="dateCreated datePublished" datetime="2023-07-19T00:00:00+08:00">2023-07-19</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">4.9k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">17m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">待分类</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%96%B0%E7%94%9F/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">新生</span></a><a class="tag-item" href="/tags/%E5%8D%8E%E5%86%9C/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">华农</span></a><a class="tag-item" href="/tags/%E6%8C%87%E5%8D%97/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">指南</span></a><a class="tag-item" href="/tags/%E4%BF%A1%E6%81%AF/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">信息</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/07/06/OBSIDIAN/blog_ob/Experiment/manhadun/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/07/06/OBSIDIAN/blog_ob/Experiment/manhadun/">CMplot绘制曼哈顿图</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-07-06 00:00:00" itemprop="dateCreated datePublished" datetime="2023-07-06T00:00:00+08:00">2023-07-06</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">36</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">待分类</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%A0%87%E7%AD%BE1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">标签1</span></a><a class="tag-item" href="/tags/%E6%A0%87%E7%AD%BE2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">标签2</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/07/06/OBSIDIAN/blog_ob/%E6%9D%82/zixun/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/07/06/OBSIDIAN/blog_ob/%E6%9D%82/zixun/">信息板</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-07-06 00:00:00" itemprop="dateCreated datePublished" datetime="2023-07-06T00:00:00+08:00">2023-07-06</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">166</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%9D%82/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">杂</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%96%B0%E7%94%9F/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">新生</span></a><a class="tag-item" href="/tags/%E5%AE%BF%E8%88%8D/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">宿舍</span></a><a class="tag-item" href="/tags/%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">学生信息</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/07/03/OBSIDIAN/blog_ob/Experiment/CNGBdb_shangchuan/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/07/03/OBSIDIAN/blog_ob/Experiment/CNGBdb_shangchuan/">CNGBdb数据库上传（测序数据）</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-07-03 00:00:00" itemprop="dateCreated datePublished" datetime="2023-07-03T00:00:00+08:00">2023-07-03</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2023-07-06 09:51:04" itemprop="dateModified" datetime="2023-07-06T09:51:04+08:00">2023-07-06</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">2</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">每日实验</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E4%BC%A0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">数据库上传</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/06/23/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_22/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/06/23/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_22/">这是一个模板</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-06-23 00:00:00" itemprop="dateCreated datePublished" datetime="2023-06-23T00:00:00+08:00">2023-06-23</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">165</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">每日实验</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">实验</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/06/20/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_20/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/06/20/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_20/">破袋脱袋</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-06-20 00:00:00" itemprop="dateCreated datePublished" datetime="2023-06-20T00:00:00+08:00">2023-06-20</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">82</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">每日实验</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">实验</span></a></div></div></article><article class="post-card w-full" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://zhaozdd.gitee.io/2023/06/19/OBSIDIAN/blog_ob/Experiment/shiyan2023_6.19/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="栋栋"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="木东の小站"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2023/06/19/OBSIDIAN/blog_ob/Experiment/shiyan2023_6.19/">群体DNA提取</a></h2><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2023-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2023-06-19T00:00:00+08:00">2023-06-19</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2023-07-06 09:51:24" itemprop="dateModified" datetime="2023-07-06T09:51:24+08:00">2023-07-06</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">150</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">1m</span></span></span><div class="post-author"><span class="author-name">栋栋</span></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt markdown-body"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">每日实验</span></a></span></div><div class="post-card-tag"><a class="tag-item" href="/tags/%E5%AE%9E%E9%AA%8C/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">实验</span></a></div></div></article></section><nav class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><svg class="icon"><use xlink:href="#icon-arrow-right-s-line" aria-label="Next"></use></svg></a></nav></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2023 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> 栋栋</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.7.0</span></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><script>function initMourn() {
-  const date = new Date();
-  const today = (date.getMonth() + 1) + "-" + date.getDate()
-  const mourn_days = ["4-4","12-13"]
-  if (mourn_days.includes(today)) {
-    document.documentElement.style.filter = "grayscale(1)";
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/aotuman.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://zhaozdd.gitee.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '木东の小站',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-11-17 17:27:17'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/aotuman.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/20230331011655.png')"><nav id="nav"><span id="blog-info"><a href="/" title="木东の小站"><span class="site-name">木东の小站</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">木东の小站</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://tvax4.sinaimg.cn/large/008rensygy1gy2ycf0n48j30by0bydgd.jpg" target="_blank" title="微信"><i class="fa-brands fa-weixin" style="color: #20a162;"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=CZ1ryl52B3lQTz3yBRy9oCcp1YDQW-WK&amp;noverify=0" target="_blank" title="QQ"><i class="fa-brands fa-qq" style="color: #93b5cf;"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=414713078" target="_blank" title="网易云"><i class="fa-solid fa-music" style="color: #ee2746;"></i></a><a class="social-icon" href="https://space.bilibili.com/8295257" target="_blank" title="哔哩哔哩动画"><i class="fa-brands fa-bilibili" style="color: #ea7293;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/11/04/OBSIDIAN/blog_ob/Experiment/snapgen/" title="SnapGen4.3.6 CN 下载连接">SnapGen4.3.6 CN 下载连接</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-03T16:00:00.000Z" title="发表于 2023-11-04 00:00:00">2023-11-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/">待分类</a></span></div><div class="content">
+     
+
+
+
+
+蓝奏云网盘
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/09/22/OBSIDIAN/blog_ob/Experiment/RNA-seq/" title="转录组上游分析-差异基因表达分析">转录组上游分析-差异基因表达分析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-21T16:00:00.000Z" title="发表于 2023-09-22 00:00:00">2023-09-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/">待分类</a></span></div><div class="content">
+     
+
+
+
+
+本流程以测序结果中的部分数据为例，对转录组的一般分析流程进行介绍。
+
+
+
+
+原始数据获取测序数据可从数据库下载或样品送公司测序后获得
+123mkdir 01.rawdatacd 01.rawdatacd ../
+
+若是从数据库下载可使用数据库提供的下载工具之间下载；若是公司给的测序结果，则直接拷贝到该文件夹中，并检验md5
+质控常用软件有，trimmomatic，fastp等，此处以trimmomatic为例。
+12345$ mkdir 02.trimmomatic$ cd ../02.trimmomatic/$ for i in `ls ../01.rawdata/*.1.n1000000.fq`; do i=$&#123;i/*\//&#125;; i=$&#123;i/.1.n1000000.fq/&#125;; echo &quot;java -jar /opt/biosoft/Trimmomatic-0.33/trimmomatic-0.33.jar PE -threads 12 -phred33 ../01.rawdata/$i.1.n1000000. ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/24/OBSIDIAN/blog_ob/%E6%9D%82/zhaoxin/" title="招新啦！！！！">招新啦！！！！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-23T16:00:00.000Z" title="发表于 2023-07-24 00:00:00">2023-07-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/">待分类</a></span></div><div class="content">
+     
+
+
+
+
+排球队
+
+
+
+植科院排球队（1）    
+植科院排球队（2）    
+植科院排球队（3）    
+https://wwmg.lanzouj.com/imokk17ph9te
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/19/OBSIDIAN/blog_ob/%E6%9D%82/xinshengzhinan/" title="华农新生指北">华农新生指北</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-18T16:00:00.000Z" title="发表于 2023-07-19 00:00:00">2023-07-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/">待分类</a></span></div><div class="content">
+
+
+注：本文由植科院排球队独家冠名，许多信息整理来源一近几年，有些数据可能以为时间问题发生变化请谅解，注意信息甄别。
+
+
+
+简介主要收集了一些往年对新生有帮助的信息，整理汇总，主要包括地图、生活、常见问题等，如有更多想要咨询，可以私戳我进行整理与发布
+华农手绘风地图华农手绘风格地图（部分新楼未标出，仅示意）    
+华农校历华农2023校历    
+新生入学须知（一）
+
+
+军训指南
+
+
+
+军训是每个合格的大学生必须有的一段经历。大家应该认真对待，军训时大家应注意以下几点
+1．早上准时起床，准时到指定地点早操。2．由于天气较热，同学们应注意涂抹防晒霜。3．带上学校统一分发的水壶，根据自己情况。也可在壶内放茶、姜片等清热解暑之物。4．可以垫软鞋垫
+
+
+
+自习地点的选择
+
+
+
+学校里可以用来自习的场所包括：公共教学楼、各院系大楼、图书馆、荟园各栋宿舍的顶楼自习室、寝室。
+1、 公共教学楼：除了正在上课的教室外，其余的空闲教室均可用于自习。    
+
+一教（求是楼）：设备很旧的一栋教学楼，且一般为研究生自习用，所以占座现象最为严重，但因其桌椅高度比例合适且学习气氛浓厚，所以不失为一个好的选择 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/06/OBSIDIAN/blog_ob/Experiment/manhadun/" title="CMplot绘制曼哈顿图">CMplot绘制曼哈顿图</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-05T16:00:00.000Z" title="发表于 2023-07-06 00:00:00">2023-07-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/">待分类</a></span></div><div class="content">
+     
+
+
+
+
+真的好难啊，备份一下比较好的参数教程
+
+
+[CMplot惊艳绘图 - 码农教程 (manongjc.com)](http://www.manongjc.com/detail/62-egpcnkfzlmapnct.html)
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/06/OBSIDIAN/blog_ob/%E6%9D%82/zixun/" title="信息板">信息板</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-05T16:00:00.000Z" title="发表于 2023-07-06 00:00:00">2023-07-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%9D%82/">杂</a></span></div><div class="content">
+     
+
+一些常用网站
+
+
+常用的一些网站
+
+
+
+智慧狮山-统一身份认证 (cas.hzau.edu.cn)
+华农门户 (portal-paas.hzau.edu.cn)
+研究生管理系统
+校园网登录与购买 (zizhuhzau.edu.cn)
+e建安 (ejan.hzau.edu.cn)
+2023-2024学年校历
+华中农业大学图书馆电子资源 
+华中农业大学校外访问     
+学生宿舍攻略
+
+
+主要介绍关于学生宿舍的内部情况
+
+
+
+学生宿舍攻略1学生宿舍攻略2学生宿舍攻略3学生宿舍攻略4学生宿舍攻略5学生宿舍攻略6学生宿舍攻略7学生宿舍攻略8学生宿舍攻略9    
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/03/OBSIDIAN/blog_ob/Experiment/CNGBdb_shangchuan/" title="CNGBdb数据库上传（测序数据）">CNGBdb数据库上传（测序数据）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-02T16:00:00.000Z" title="发表于 2023-07-03 00:00:00">2023-07-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/">每日实验</a></span></div><div class="content">
+     
+
+
+
+
+
+
+浅蓝
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/23/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_22/" title="这是一个模板">这是一个模板</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-22T16:00:00.000Z" title="发表于 2023-06-23 00:00:00">2023-06-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/">每日实验</a></span></div><div class="content">
+     
+
+
+
+对GATK 得到的变异位点进行过滤
+
+
+
+‘gatk VariantFiltration -R genome.fasta -O variants.filter.vcf -V variants.raw.vcf –filter-name FilterQual –filter-expression “QUAL &lt; 30.0” –filter-name FilterQD –filter-expression “QD &lt; 13.0” –filter-name FilterMQ –filter-expression “MQ &lt; 20.0” –filter-name FilterFS –filter-expression “FS &gt; 20.0” –filter-name FilterMQRankSum –filter-expression “MQRankSum &lt; -3.0” –filter-name FilterReadPosRankSum –filter-expression “ReadPosRankSum &lt; -3.0” –filter- ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/20/OBSIDIAN/blog_ob/Experiment/shiyan2023_6_20/" title="破袋脱袋">破袋脱袋</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-19T16:00:00.000Z" title="发表于 2023-06-20 00:00:00">2023-06-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/">每日实验</a></span></div><div class="content">
+     
+
+
+
+
+
+去武汉农科院对菌包进行破袋，脱袋
+
+
+
+对之前泡过水的菌包，观察原基的位置，在相应的位置开孔，如果原基数量比较多，就直接脱袋，且采回七个样本菇，均为菌褶上的膜即将分离状态，进行孢子弹射工作。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/19/OBSIDIAN/blog_ob/Experiment/shiyan2023_6.19/" title="群体DNA提取">群体DNA提取</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-18T16:00:00.000Z" title="发表于 2023-06-19 00:00:00">2023-06-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/">每日实验</a></span></div><div class="content">
+     
+
+
+
+用CTAB-SDS法提取DNA对八十个菌株进行DNA的提取，与以往不同，采用了高通量研磨机，但是钢珠生锈，在加入PCI后上清呈艳红色，认为是铁锈产生了影响，此外研磨效果并没有手持的好，切只用了两个打孔的琼脂块进行研磨，琼脂过多也对分层产生了很大的影响，最后浓度均低于50ng&#x2F;ul，且曲线图不理想，证明浓度不纯，将提取后的DNA保存，为后续PCR起参考作用，但建议不做为标准。
+
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/aotuman.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">栋栋</div><div class="author-info__description">希望做一个快乐的人</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://tvax4.sinaimg.cn/large/008rensygy1gy2ycf0n48j30by0bydgd.jpg" target="_blank" title="微信"><i class="fa-brands fa-weixin" style="color: #20a162;"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=CZ1ryl52B3lQTz3yBRy9oCcp1YDQW-WK&amp;noverify=0" target="_blank" title="QQ"><i class="fa-brands fa-qq" style="color: #93b5cf;"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=414713078" target="_blank" title="网易云"><i class="fa-solid fa-music" style="color: #ee2746;"></i></a><a class="social-icon" href="https://space.bilibili.com/8295257" target="_blank" title="哔哩哔哩动画"><i class="fa-brands fa-bilibili" style="color: #ea7293;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/04/OBSIDIAN/blog_ob/Experiment/snapgen/" title="SnapGen4.3.6 CN 下载连接">SnapGen4.3.6 CN 下载连接</a><time datetime="2023-11-03T16:00:00.000Z" title="发表于 2023-11-04 00:00:00">2023-11-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/22/OBSIDIAN/blog_ob/Experiment/RNA-seq/" title="转录组上游分析-差异基因表达分析">转录组上游分析-差异基因表达分析</a><time datetime="2023-09-21T16:00:00.000Z" title="发表于 2023-09-22 00:00:00">2023-09-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/24/OBSIDIAN/blog_ob/%E6%9D%82/zhaoxin/" title="招新啦！！！！">招新啦！！！！</a><time datetime="2023-07-23T16:00:00.000Z" title="发表于 2023-07-24 00:00:00">2023-07-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/19/OBSIDIAN/blog_ob/%E6%9D%82/xinshengzhinan/" title="华农新生指北">华农新生指北</a><time datetime="2023-07-18T16:00:00.000Z" title="发表于 2023-07-19 00:00:00">2023-07-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/06/OBSIDIAN/blog_ob/Experiment/manhadun/" title="CMplot绘制曼哈顿图">CMplot绘制曼哈顿图</a><time datetime="2023-07-05T16:00:00.000Z" title="发表于 2023-07-06 00:00:00">2023-07-06</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BE%85%E5%88%86%E7%B1%BB/"><span class="card-category-list-name">待分类</span><span class="card-category-list-count">10</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%84%9F%E6%83%B3/"><span class="card-category-list-name">感想</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">教程</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%9D%82/"><span class="card-category-list-name">杂</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%AF%8F%E6%97%A5%E5%AE%9E%E9%AA%8C/"><span class="card-category-list-name">每日实验</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E4%BF%A1/"><span class="card-category-list-name">生信</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BB%8F%E5%8E%86/"><span class="card-category-list-name">经历</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%A7%82%E5%90%8E%E6%84%9F/"><span class="card-category-list-name">观后感</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E7%94%B5%E5%BD%B1/" style="font-size: 1.1em; color: #999">电影</a> <a href="/tags/%E6%8B%9B%E6%96%B0/" style="font-size: 1.1em; color: #999">招新</a> <a href="/tags/%E7%9B%AE%E5%BD%95/" style="font-size: 1.1em; color: #999">目录</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 1.1em; color: #999">考研</a> <a href="/tags/%E4%BF%A1%E6%81%AF/" style="font-size: 1.1em; color: #999">信息</a> <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 1.1em; color: #999">软件</a> <a href="/tags/%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF/" style="font-size: 1.1em; color: #999">学生信息</a> <a href="/tags/%E7%BB%8F%E5%8E%86/" style="font-size: 1.1em; color: #999">经历</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8A%E4%BC%A0/" style="font-size: 1.1em; color: #999">数据库上传</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 1.3em; color: #99a1ac">标签1</a> <a href="/tags/%E6%8E%92%E7%90%83/" style="font-size: 1.1em; color: #999">排球</a> <a href="/tags/%E6%83%B3%E6%B3%95/" style="font-size: 1.1em; color: #999">想法</a> <a href="/tags/%E5%AE%9E%E9%AA%8C/" style="font-size: 1.4em; color: #99a5b6">实验</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 1.3em; color: #99a1ac">标签2</a> <a href="/tags/%E6%9D%82%E8%B0%88/" style="font-size: 1.2em; color: #999da3">杂谈</a> <a href="/tags/%E5%AE%BF%E8%88%8D/" style="font-size: 1.1em; color: #999">宿舍</a> <a href="/tags/%E6%96%B0%E7%94%9F/" style="font-size: 1.2em; color: #999da3">新生</a> <a href="/tags/%E5%8D%8E%E5%86%9C/" style="font-size: 1.1em; color: #999">华农</a> <a href="/tags/%E6%8C%87%E5%8D%97/" style="font-size: 1.1em; color: #999">指南</a> <a href="/tags/%E7%94%9F%E4%BF%A1/" style="font-size: 1.5em; color: #99a9bf">生信</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.1em; color: #999">随笔</a> <a href="/tags/%E5%85%AC%E7%94%A8%E9%85%8D%E7%BD%AE/" style="font-size: 1.1em; color: #999">公用配置</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.1em; color: #999">教程</a> <a href="/tags/%E7%A0%B4%E8%A7%A3/" style="font-size: 1.1em; color: #999">破解</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 1.2em; color: #999da3">感想</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">33</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-08-07T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">19.2k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-11-17T09:27:05.658Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://zhaozd.oss-cn-nanjing.aliyuncs.com/images/20230331011655.png')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 栋栋</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
   }
 }
-initMourn();</script></div></body></html>
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["All in life."])
+  } else {
+    document.getElementById("subtitle").textContent = "All in life."
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
